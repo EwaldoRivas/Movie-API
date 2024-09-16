@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 
 # URL de conexión de PostgreSQL proporcionada por Railway
-database_url = "postgresql://postgres:LbBPmcnazifjCXmtxCHJWHAxSifaImnn@junction.proxy.rlwy.net:53034/railway"
+database_url = "postgresql://postgres:LbBPmcnazifjCXmtxCHJWHAxSifaImnn@postgres.railway.internal:5432/railway"
 
 engine = create_engine(database_url, echo=True)
 
